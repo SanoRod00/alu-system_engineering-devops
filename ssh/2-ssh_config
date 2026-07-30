@@ -1,3 +1,6 @@
+# Task 2 - SSH client configuration
+# - Always authenticate with the private key ~/.ssh/school
+# - Never fall back to password authentication
 Host *
     IdentityFile ~/.ssh/school
     PasswordAuthentication no

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Connects to a server using a private key
-ssh -i ~/.ssh/school ubuntu@34.239.0.61
+# Task 0 - Use a private key
+# Connect to the server as the user "ubuntu" using the SSH private key ~/.ssh/school.
+ssh -i ~/.ssh/school ubuntu@3.91.161.91
